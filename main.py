@@ -11,8 +11,8 @@ class MyWidgetApp(QWidget):
         self.btn = QPushButton("Press Me!")
         self.labelOut = QLabel()
         self.labelError = QLabel()
-        self.outString = ""
-        self.errString = ""
+        self.outString = "Out:"
+        self.errString = "Err:"
         self.vbox = QVBoxLayout()
         self.process = QProcess()
 
